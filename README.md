@@ -60,6 +60,20 @@ Great Documentation <http://ionicframework.com/getting-started/>
     mkdir walkie-server
     npm init
     npm install --save socket.io lodash
+    # Add code
+    nodemon
+
+### Step 10: Create Docker images
+Client:
+
+    cd walkie-client
+    docker build -t walkie-client .
+    docker run --name walkie-client -d -p 8080:80 walkie-client
+
+Server:
+    cd walkie-server
+    docker build -t walkie-server .
+    docker run --name walkie-server -d -p 3000:3000 walkie-server
 
 ## Things I left out
 - Unit Testing
