@@ -43,4 +43,8 @@ angular.module('chat.controller', [])
         }
     }
 
+    $scope.clearMessages = function() {
+        $scope.messages = [];
+    }
+
 })

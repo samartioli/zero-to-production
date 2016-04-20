@@ -37,12 +37,6 @@ angular.module('chat.directives', [])
                 });
                 event.preventDefault();
             }
-            if(event.which === 38) {
-                scope.$apply(function (){
-                    scope.stepBackThroughHistory();
-                });
-                event.preventDefault();
-            }
         });
     };
 })
