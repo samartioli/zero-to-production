@@ -1,11 +1,12 @@
 # Zero to Production in 60
 
+    git clone https://github.com/samartioli/zero-to-production
+
 #### Services
 
 - [Google Domains](https://domains.google.com/registrar#sp&chp=sp)
 - [Cloud Flare](https://www.cloudflare.com)
 - [Digital Ocean](https://www.digitalocean.com/)
-- [App Dynamics](https://www.appdynamics.com)
 
 #### Technologies and Frameworks
 
