@@ -1,0 +1,60 @@
+ion-content.scroll-content {
+    bottom: 55px;
+}
+
+#messageInput {
+    background-color: white;
+    width: 100%;
+    height:24px !important;
+    padding: 4px;
+    color: black;
+    -webkit-user-select: auto !important;
+    margin: 5px 0 0 4px;
+    resize: none;
+
+}
+
+#sendMessage {
+    min-width: 60px;
+}
+
+.bar.bar-footer {
+    height: auto;
+    min-height: 30px;
+    background-color: rgb(179, 193, 195);
+}
+
+ion-header-bar.bar.bar-stable {
+    background-color: rgb(179, 193, 195);
+}
+
+.message {
+    margin: 8px;
+    padding: 8px 12px;
+    clear: both;
+    width: 45%;
+    border-radius: 12px;
+}
+
+.local {
+    float: right;
+    text-align: right;
+    background-color: rgb(164, 255, 203);
+}
+
+.local > .who {
+    display: none;
+}
+
+.remote {
+    float: left;
+    text-align: left;
+    background-color: rgb(150, 214, 255);
+}
+
+.remote > .who {
+    background-color: white;
+    padding: 3px 6px;
+    border-radius: 6px;
+    margin: 0 6px 0 0;
+}
